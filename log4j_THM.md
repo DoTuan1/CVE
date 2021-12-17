@@ -29,6 +29,7 @@ The target machine is running Apache Solr on port 8983 so we can visit the websi
 ![image](https://user-images.githubusercontent.com/63194321/146521115-70e7cc91-a2b9-46dd-9753-52d34b7f42e6.png)
 
 * To answer the question of what the `-Dsolr.log.dir` argument is set to, we go to the website `http://MACHINE_IP:8983` and find that argument:
+
   ![image](https://user-images.githubusercontent.com/63194321/146524771-c5505016-b518-419d-85ee-23d38e0ae84c.png)
 
 To answer the following questions we have to download the previously recorded web `log` files.
@@ -151,6 +152,7 @@ After saving the file, we will run this file with the syntax.
 > javac Exploit.java
 
 After running, we will have 1 more file `Exploit.class`.
+
 ![image](https://user-images.githubusercontent.com/63194321/146558060-e9ef861c-1593-42d8-9268-4d9392e1927d.png)
 
 
