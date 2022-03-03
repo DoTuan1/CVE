@@ -18,7 +18,7 @@ Sau khi tạo mật khẩu root của DB và không cho phép quyền truy cập
 > sudo systemctl restart mysql.service
 
 4. Tải PHP và các thư viện cần thiết.
-> sudo apt install php libapache2-mod-php php-cli php-ldap php-zip php-curl php-mysql php-mbstring php-gd
+> sudo apt install php libapache2-mod-php php-cli php-ldap php-zip php-curl php-mysql php-mbstring php-gd php-xml
 
 5. Sau khi cài xong PHP thì ta sẽ chỉnh lại tệp mặc định của Apache2.
 > sudo nano /etc/php/7.4/apache2/php.ini
